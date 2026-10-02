@@ -67,3 +67,34 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# data & databases
+*.db
+*.sqlite
+*.csv
+*.parquet
+*.wav
+data/
+raw_data/
+
+# model checkpoints & large assets
+*.pt
+*.pth
+*.onnx
+*.bin
+
+# c++ build outputs & cmake
+build/
+cmake-build-*/
+bin/
+*.o
+*.obj
+*.exe
+*.so
+*.dylib
+
+# python & environment
+__pycache__/
+.venv/
+env/
+.env
