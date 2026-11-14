@@ -1,0 +1,23 @@
+name: copd-decoder
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - tqdm
+  - librosa
+  - pysoundfile
+  - portaudio
+  - pip:
+      - torch
+      - torchvision
+      - torchaudio
+      - sounddevice
+      - kagglehub
+      - streamlit
