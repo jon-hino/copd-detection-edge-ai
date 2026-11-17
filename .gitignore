@@ -98,4 +98,7 @@ __pycache__/
 .venv/
 env/
 .env
+
+# macos metadata
 .DS_Store
+._.DS_Store
